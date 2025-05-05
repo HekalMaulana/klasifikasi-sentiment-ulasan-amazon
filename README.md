@@ -32,7 +32,7 @@ This project implements sentiment classification on Amazon product reviews based
 Pipeline([
     ('tfidf', TfidfVectorizer(max_features=1400)),
     ('knn', KNeighborsClassifier(
-        n_neighbors=39,
+        n_neighbors=35,
         p=1.6,
         weights='distance'
     ))
